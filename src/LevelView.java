@@ -23,9 +23,9 @@ public class LevelView extends JPanel implements View {
 
     public static Color mineralColor(Mineral m) {
         HashMap<String, Color> colors = new HashMap<>();
+		colors.put("uranium(1)", uranium1Color);
         colors.put("uranium(0)", uranium0Color);
 		colors.put("uranium(2)", uranium2Color);
-        colors.put("uranium(1)", uranium1Color);
         colors.put("iron", ironColor);
         colors.put("ice", iceColor);
         colors.put("coal", coalColor);
