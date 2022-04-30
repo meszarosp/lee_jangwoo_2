@@ -171,11 +171,11 @@ public class Game {
         			}
         		}
         	}
-        	for(int i = 0; i < allMineralCount; i++) {
-        		if(counter[i] < 3) {
+        	for(int j = 0; j < allMineralCount; j++) {
+        		if(counter[j] < 3) {
         			break;
         		}
-        		if(i == allMineralCount-1) {
+        		if(j == allMineralCount-1) {
                     gameEnd = true;
         			return true;
         		}
